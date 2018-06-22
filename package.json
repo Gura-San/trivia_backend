@@ -1,0 +1,30 @@
+{
+  "name": "trivia_backend",
+  "version": "1.0.0",
+  "description": "trivia game backend proxy server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Gura-San/trivia_bakcend.git"
+  },
+  "keywords": [
+    "trivia",
+    "game",
+    "backend",
+    "proxy",
+    "server"
+  ],
+  "author": "David Guras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gura-San/trivia_bakcend/issues"
+  },
+  "homepage": "https://github.com/Gura-San/trivia_bakcend#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.1.6"
+  }
+}
