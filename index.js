@@ -1,12 +1,11 @@
-const express = require('express')
+const express   = require('express')
+const questions = require('./controllers/questionnaireController')
 
 const app = express()
 
 app.set('port', process.env.PORT || 4000)
 
-app.get('/', (req, res) => {
-  res.sendStatus(200)
-})
+app.use('/', questions)
 
 app.listen(app.get('port'), _ => {
   console.log(`✅ PORT: ${app.get('port')} 🌟`)
